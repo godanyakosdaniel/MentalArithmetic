@@ -1,0 +1,12 @@
+C:\Users\godan\source\repos\MentalArithmetic\MentalArithmetic\bin\Debug\MentalArithmetic.exe
+C:\Users\godan\source\repos\MentalArithmetic\MentalArithmetic\bin\Debug\MentalArithmetic.pdb
+C:\Users\godan\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\MentalArithmetic.csprojAssemblyReference.cache
+C:\Users\godan\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\MentalArithmetic.Properties.Resources.resources
+C:\Users\godan\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\MentalArithmetic.csproj.GenerateResource.cache
+C:\Users\godan\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\MentalArithmetic.csproj.CoreCompileInputs.cache
+C:\Users\godan\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\MentalArithmetic.exe
+C:\Users\godan\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\MentalArithmetic.pdb
+C:\Users\godan\source\repos\MentalArithmetic\MentalArithmetic\bin\Debug\en\MentalArithmetic.resources.dll
+C:\Users\godan\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\en\MentalArithmetic.resources.dll
+C:\Users\godan\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\MentalArithmetic.MainFrm.resources
+C:\Users\godan\source\repos\MentalArithmetic\MentalArithmetic\obj\Debug\MentalArithmetic.MainFrm.en.resources
