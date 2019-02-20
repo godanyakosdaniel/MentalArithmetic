@@ -9,14 +9,16 @@ namespace MentalArithmetic.Classes
     {
         Number secondNumber;
 
+        internal Number SecondNumber { get => secondNumber; private set => secondNumber = value; }
+
         public BasicOperations(int min, int max, bool fraction) : base(min, max, fraction)
         {
-            secondNumber = new Number(min, max, fraction);
+            SecondNumber = new Number(min, max, fraction);
         }
 
-        public BasicOperations(int min, int max, bool fraction, int secondMin, int secondMax) : base(min,max,fraction)
+        public BasicOperations(int min, int max, bool fraction, int secondMin, int secondMax) : base(min, max, fraction)
         {
-            secondNumber = new Number(secondMin, secondMax,fraction);
+            SecondNumber = new Number(secondMin, secondMax, fraction);
         }
     }
 }

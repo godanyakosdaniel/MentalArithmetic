@@ -14,6 +14,12 @@ namespace MentalArithmetic
         public MainFrm()
         {
             InitializeComponent();
+            sumFractionCmBx.SelectedIndex = 0;
+            subFractionCmBx.SelectedIndex = 0;
+            multiFractionCmBx.SelectedIndex = 0;
+            divFractionCmBx.SelectedIndex = 0;
+            exFractionCmBx.SelectedIndex = 0;
+            rootFractionCmBx.SelectedIndex = 0;
         }
     }
 }
