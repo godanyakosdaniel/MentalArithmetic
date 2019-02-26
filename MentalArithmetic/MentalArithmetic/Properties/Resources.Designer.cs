@@ -69,15 +69,5 @@ namespace MentalArithmetic.Properties {
                 return ((System.Drawing.Icon)(obj));
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap MultiplicationTable {
-            get {
-                object obj = ResourceManager.GetObject("MultiplicationTable", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }

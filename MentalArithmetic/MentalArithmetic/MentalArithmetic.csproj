@@ -53,28 +53,37 @@
     <Compile Include="Classes\Subtraction.cs" />
     <Compile Include="Classes\Summation.cs" />
     <Compile Include="Enums\Operations.cs" />
+    <Compile Include="Forms\PlayFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PlayFrm.Designer.cs">
+      <DependentUpon>PlayFrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="Structs\Number.cs" />
-    <Compile Include="Structs\MainFrm.cs">
+    <Compile Include="Forms\MainFrm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Structs\MainFrm.Designer.cs">
+    <Compile Include="Forms\MainFrm.Designer.cs">
       <DependentUpon>MainFrm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\PlayFrm.resx">
+      <DependentUpon>PlayFrm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Structs\MainFrm.en.resx">
+    <EmbeddedResource Include="Forms\MainFrm.en.resx">
       <DependentUpon>MainFrm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Structs\MainFrm.resx">
+    <EmbeddedResource Include="Forms\MainFrm.resx">
       <DependentUpon>MainFrm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -94,13 +103,7 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Pictures\MultiplicationTable.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="bin\Debug\iconfinder_office-17_809590.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Forms\" />
+    <Folder Include="bin\Debug\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
